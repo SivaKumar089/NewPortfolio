@@ -67,15 +67,32 @@ const Contact = () => {
           <div className="space-y-8" data-aos="fade-right" data-aos-delay="200">
             <div className="flex items-center gap-4 text-gray-700 hover:text-purple-600 transition text-lg">
               <IoCallSharp className="text-2xl" />
-              <span>+91 93424 74302</span>
+              <a
+                href="tel:+919342474302"
+                className="hover:underline"
+              >
+                +91 93424 74302
+              </a>
             </div>
             <div className="flex items-center gap-4 text-gray-700 hover:text-purple-600 transition text-lg">
               <FaEnvelope className="text-2xl" />
-              <span>kumarsiva200426@gmail.com</span>
+              <a
+                href="mailto:kumarsiva200426@gmail.com"
+                className="hover:underline"
+              >
+                kumarsiva200426@gmail.com
+              </a>
             </div>
             <div className="flex items-center gap-4 text-gray-700 hover:text-purple-600 transition text-lg">
               <FaMapMarkerAlt className="text-2xl" />
-              <span>Rajapalayam, Tamil Nadu, India</span>
+              <a
+                href="https://www.google.com/maps/place/Rajapalayam,+Tamil+Nadu,+India"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-blue-600 hover:underline"
+              >
+                Rajapalayam, Tamil Nadu, India
+              </a>
             </div>
           </div>
 
