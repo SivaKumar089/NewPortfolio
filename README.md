@@ -28,5 +28,5 @@ This is my **personal portfolio website** built using **React.js** and **Tailwin
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
-   cd your-portfolio
+   git clone https://github.com/SivaKumar089/NewPortfolio.git
+   cd NewPortfolio
