@@ -16,41 +16,46 @@ import { FaXTwitter } from "react-icons/fa6";
 export const navItems = [
   "Home",
   "About",
-  "Skills",
   "Education",
+  "Skills",
   "Projects",
   "Contact",
 ];
 
 export const socialLinks = [
   {
-    icon: <FaLinkedin />,
+    icon: FaLinkedin,
     title: "LinkedIn",
     link: "https://www.linkedin.com/in/sivakumar-k-208208288/",
+    color: "text-blue-500",
   },
   {
-    icon: <FaGithub />,
+    icon: FaGithub,
     title: "GitHub",
     link: "https://github.com/SivaKumar089",
+    color: "text-gray-300",
   },
   {
-    icon: <FaXTwitter />,
+    icon: FaXTwitter,
     title: "Twitter",
     link: "https://x.com/home",
+    color: "text-sky-500",
   },
   {
-    icon: <IoCallSharp />,
+    icon: IoCallSharp,
     title: "Phone",
     link: "tel:+919342474302",
+    color: "text-green-500",
   },
   {
-    icon: <IoMdMail />,
+    icon: IoMdMail,
     title: "Email",
     link: "mailto:kumarsiva200426@gmail.com",
+    color: "text-red-500",
   },
 ];
 
-import { SiTailwindcss, SiDjango } from "react-icons/si";
+import { SiTailwindcss, SiDjango, SiPostgresql } from "react-icons/si";
 
 export const skillsData = [
   {
@@ -73,7 +78,7 @@ export const skillsData = [
   },
   {
     name: "React.js",
-    level: 75,
+    level: 85,
     icon: FaReact,
     color: "text-cyan-400",
   },
@@ -85,22 +90,28 @@ export const skillsData = [
   },
   {
     name: "Python",
-    level: 70,
+    level: 80,
     icon: FaPython,
     color: "text-green-500",
   },
   {
     name: "Django",
-    level: 75,
+    level: 85,
     icon: SiDjango,
     color: "text-emerald-700",
   },
 
   {
     name: "Git",
-    level: 85,
+    level: 90,
     icon: FaGitAlt,
     color: "text-red-500",
+  },
+  {
+    name: "PostgreSQL",
+    level: 80,
+    icon: SiPostgresql,
+    color: "text-blue-600",
   },
 ];
 
@@ -112,47 +123,52 @@ export const educationData = [
     degree: "B.E - Electronics and Communication Engineering",
     institution: "P.S.R. Engineering College, Sivakasi",
     year: "2025",
-    percentage: "75%",
+    percentage: "7.3",
   },
   {
     icon: FaChalkboardTeacher,
     degree: "HSC - State Board",
     institution: "S.S.H.N Higher Secondary School,Muhavur",
     year: "2021",
-    percentage: "82.5%",
+    percentage: "82.5",
   },
   {
     icon: FaSchool,
     degree: "SSLC - State Board",
     institution: "S.S.H.N Higher Secondary School,Muhavur",
     year: "2019",
-    percentage: "73.8%",
+    percentage: "73.8",
   },
 ];
 
+import { FaBus, FaStore, FaUser, FaTicketAlt } from "react-icons/fa";
+
 export const projects = [
   {
-    title: "🚌 Bus Ticket Machine",
-    tech: "C++",
-    description:
-      "A machine software to simulate ticket booking and fare calculation in buses using C++.",
-  },
-  {
-    title: "🛒 E-Commerce Website",
+    icon: <FaStore />,
+    title: " E-Commerce Website",
     tech: "HTML, CSS, JavaScript",
     description:
       "A front-end e-commerce web page with interactive UI, product listing, and basic cart interface.",
+    live: "https://shopping-website-xi-orpin.vercel.app/",
+    code: "https://github.com/SivaKumar089/shopping_website.git",
   },
   {
-    title: "🌐 Personal Portfolio Website",
+    icon: <FaUser />,
+    title: "Personal Portfolio Website",
     tech: "React JS, Tailwind CSS",
     description:
       "A fully responsive and animated portfolio to showcase my skills, resume, and projects.",
+    live: "https://sivakumarportfolio.netlify.app/",
+    code: "https://github.com/SivaKumar089/NewPortfolio.git",
   },
   {
-    title: "🎟️ Ticket Booking App",
+    icon: <FaTicketAlt />,
+    title: "Ticket Booking App",
     tech: "React.js, Django, Tailwind CSS",
     description:
       "A full-stack application for booking movie tickets with seat selection and showtime management.",
+    live: "https://bookit-web.netlify.app/",
   },
 ];
+

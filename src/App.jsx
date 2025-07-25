@@ -21,7 +21,7 @@ function App() {
     });
   }, []);
   return (
-    <div className="scroll-smooth">
+    <div className="scroll-smooth overflow-x-scroll">
       <Navbar />
       <Home />
       <About />
