@@ -20,7 +20,7 @@ const Home = () => {
           <div className="text-xl md:text-2xl font-medium text-gray-600 mb-6 h-12">
             <Typewriter
               options={{
-                strings: ["Full Stack Developer", "Django Python Develper"],
+                strings: ["Full Stack Developer", "Django Developer"],
                 autoStart: true,
                 loop: true,
               }}
