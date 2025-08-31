@@ -36,13 +36,13 @@ const Home = () => {
                 rel="noopener noreferrer"
                 className="relative group w-12 h-12 flex items-center justify-center rounded-full bg-white text-gray-500 shadow-md hover:shadow-xl transition-all duration-300 hover:scale-110 hover:text-white hover:bg-gradient-to-br from-purple-500 to-indigo-500"
               >
-                {/* Render icon as component */}
+                
                 <item.icon className="text-2xl z-10" />
 
-                {/* Ring effect */}
+              
                 <div className="absolute inset-0 rounded-full ring-2 ring-transparent group-hover:ring-white transition-all duration-300"></div>
 
-                {/* Tooltip */}
+      
                 <span className="absolute bottom-full mb-3 left-1/2 -translate-x-1/2 px-3 py-1 text-xs text-white bg-black/80 backdrop-blur-sm rounded-md opacity-0 group-hover:opacity-100 scale-90 group-hover:scale-100 transition-all duration-300 whitespace-nowrap pointer-events-none">
                   {item.title}
                 </span>

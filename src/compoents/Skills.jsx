@@ -38,7 +38,7 @@ const Skills = () => {
               custom={index}
               variants={fadeIn}
             >
-              {/* Icon + Name + Progress */}
+              
               <div className=" flex items-center justify-center gap-10 mb-4">
                 <div className="w-12 h-12 flex items-center justify-center rounded-full shadow-inner bg-purple-100">
                   <Icon className={`text-xl ${skill.color}`} />
@@ -47,7 +47,7 @@ const Skills = () => {
                   {skill.name}
                 </h3>
 
-                {/* Circle Progress */}
+    
                 <motion.div
                   className="relative w-16 h-16"
                   initial={{ rotate: -90 }}

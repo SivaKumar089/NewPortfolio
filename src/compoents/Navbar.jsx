@@ -8,7 +8,9 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-white shadow-xl">
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+        <a href="http://sivakumarportfolio.netlify.app/">
         <p className="font-bold text-4xl text-blue-400">Siva Kumar</p>
+        </a>
 
         <ul className="hidden md:flex space-x-8 font-semibold text-blue-400 text-xl">
           {navItems.map((item) => (
@@ -24,7 +26,6 @@ const Navbar = () => {
           ))}
         </ul>
 
-        {/* Mobile Menu Button */}
         <div className="md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}

@@ -63,7 +63,7 @@ const Contact = () => {
         </p>
 
         <div className="grid md:grid-cols-2 gap-10">
-          {/* Contact Details */}
+        
           <div className="space-y-8" data-aos="fade-right" data-aos-delay="200">
             <div className="flex items-center gap-4 text-gray-700 hover:text-purple-600 transition text-lg">
               <IoCallSharp className="text-2xl" />
@@ -96,7 +96,6 @@ const Contact = () => {
             </div>
           </div>
 
-          {/* Contact Form */}
           <form
             action="https://formsubmit.co/kumarsiva200426@gmail.com"
             method="POST"

@@ -20,7 +20,7 @@ const About = () => {
       className="w-full bg-gradient-to-br from-purple-50 to-purple-100 px-6 md:px-20"
     >
       <div className="max-w-5xl mx-auto">
-        {/* Animated Heading */}
+        
         <motion.h2
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -31,7 +31,7 @@ const About = () => {
           About Me
         </motion.h2>
 
-        {/* Animated Paragraph */}
+        
         <motion.p
           variants={fadeInUp}
           initial="hidden"
