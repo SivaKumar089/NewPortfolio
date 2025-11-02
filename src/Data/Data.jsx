@@ -12,6 +12,7 @@ import {
 import { IoCallSharp } from "react-icons/io5";
 import { IoMdMail } from "react-icons/io";
 import { FaXTwitter } from "react-icons/fa6";
+import { TbMessageChatbotFilled } from "react-icons/tb";
 
 export const navItems = [
   "Home",
@@ -169,6 +170,17 @@ export const projects = [
     description:
       "A full-stack application for booking movie tickets with seat selection and showtime management.",
     live: "https://bookit-web.netlify.app/",
+    code:"https://bookit-web.netlify.app/",
   },
+  {
+    icon: <TbMessageChatbotFilled />,
+    title: "Chat Bot",
+    tech: "React.js, Django, Tailwind CSS",
+    description:
+      "An interactive chatbot integrated into my portfolio that helps visitors explore my projects, skills, and journey in a conversational way.",
+    live: "https://chatapp-flow.netlify.app/",
+    code:"https://github.com/SivaKumar089/chatapp_frontend.git"
+  }
+
 ];
 
